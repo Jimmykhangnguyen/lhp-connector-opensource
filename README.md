@@ -104,21 +104,6 @@ VITE_SUPABASE_PUBLISHABLE_KEY=your-anon-key
 npm run dev
 ```
 
----
-
-## Customizing for your community
-
-| What to change | Where |
-|---|---|
-| School name and home coordinates | `src/App.tsx` (header text), `src/components/GlobeView.tsx` (`SCHOOL` constant) |
-| Globe starting view | `GlobeView.tsx` — `globe.pointOfView(...)` in the init `useEffect` |
-| Nav links | `src/App.tsx` — `LIEN_KET` array |
-| Field labels / Vietnamese strings | `src/components/SubmitForm.tsx`, `UpdateForm.tsx` |
-| Open/close submissions | `src/App.tsx` — `SUBMISSIONS_OPEN` flag |
-| Caption word limit | `src/components/SubmitForm.tsx` — `MAX_WORDS` |
-
----
-
 ## Project structure
 
 ```
@@ -151,6 +136,18 @@ supabase_setup.sql           # Run once in Supabase SQL editor
 ## Deployment
 
 The frontend deploys to Vercel with zero config — connect the repo and add your `.env` variables in the Vercel dashboard. Edge Functions run on Supabase's infrastructure.
+
+---
+
+## Contributing
+
+Contributions are welcome! If you've adapted this for your own community and built something useful, feel free to open a PR.
+
+- **Bug fixes and improvements** — open a PR against `master`
+- **New features** — open an issue first to discuss before building
+- **Questions** — use GitHub Discussions or open an issue
+
+Please keep PRs focused — one change per PR makes review much easier.
 
 ---
 
