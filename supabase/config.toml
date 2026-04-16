@@ -1,0 +1,7 @@
+project_id = "rmnwfwsagycrsgyapyca"
+
+[functions.submit-post]
+verify_jwt = false
+
+[functions.submit-update]
+verify_jwt = false
