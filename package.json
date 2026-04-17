@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.103.3",
+    "@supabase/supabase-js": "^2.100.1",
     "@vercel/analytics": "^2.0.1",
     "leaflet": "^1.9.4",
     "leaflet.markercluster": "^1.5.3",
