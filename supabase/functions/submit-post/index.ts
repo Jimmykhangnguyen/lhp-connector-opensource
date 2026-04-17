@@ -13,7 +13,7 @@ const supabase = createClient(
 );
 
 // Set to true to hold posts for manual approval, false to approve automatically
-const REQUIRE_APPROVAL = true;
+const REQUIRE_APPROVAL = false;
 
 const DEFAULT_IMAGE_URL = Deno.env.get("DEFAULT_IMAGE_URL") ?? "";
 
